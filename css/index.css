@@ -615,3 +615,10 @@ span,
 ::-webkit-scrollbar-thumb {
   background-color: rgba(122,130,136,0.4);
 }
+#important a {
+  color: #f00;
+  transition: all 0.2s ease-in-out 0s;
+}
+#important a:hover {
+  color: #0bf;
+}
